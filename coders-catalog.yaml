@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coders
+  description: dependency for coders
+  tags:
+    - java
+  annotations:
+    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-b
+  system: coders-engagement-portal
